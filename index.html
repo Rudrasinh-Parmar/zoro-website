@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate King Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Playfair+Display:wght@700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav id="navbar">
+            <div class="logo">PIRATE KING</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Bounty</a></li>
+                <li><a href="#about">Crew</a></li>
+                <li><a href="#projects">Islands</a></li>
+                <li><a href="#skills">Powers</a></li>
+                <li><a href="#contact">Mushi</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <header id="hero" class="section">
+            <div class="wanted-poster">
+                <div class="poster-header">WANTED</div>
+                <div class="poster-image-container">
+                    <!-- Placeholder for user image -->
+                    <div class="poster-image-placeholder"></div>
+                </div>
+                <div class="poster-name">D. DEVELOPER</div>
+                <div class="poster-bounty">
+                    <span class="currency">BOUNTY</span>
+                    <span class="amount">1,500,000,000-</span>
+                </div>
+                <div class="poster-footer">DEAD OR ALIVE</div>
+            </div>
+            <div class="waves-container">
+                <div class="wave wave1"></div>
+                <div class="wave wave2"></div>
+                <div class="wave wave3"></div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>The Captain's Log</h2>
+            <div class="content">
+                <p><strong>Log Date: 2025</strong></p>
+                <p>I am a full-stack buccaneer navigating the turbulent seas of web development. My devil fruit ability
+                    allows me to conjure code from thin air!</p>
+                <br>
+                <p>My crew and I specialize in React, Node.js, and creating legendary user experiences. We are searching
+                    for the One Piece of software engineering: <span style="color:red; font-weight:bold;">Perfect Clean
+                        Code</span>.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Conquered Islands</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image" style="background: linear-gradient(to right, #ff9966, #ff5e62);"></div>
+                    <div class="project-info">
+                        <h3 class="project-title">Grand Line Map</h3>
+                        <p class="project-desc">Interactive mapping tool using D3.js to track pirates.</p>
+                        <div class="project-bounty">Reward: 300,000,000</div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image" style="background: linear-gradient(to right, #4facfe, #00f2fe);"></div>
+                    <div class="project-info">
+                        <h3 class="project-title">Den Den Chat</h3>
+                        <p class="project-desc">Real-time messaging app with snail emojis.</p>
+                        <div class="project-bounty">Reward: 150,000,000</div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image" style="background: linear-gradient(to right, #43e97b, #38f9d7);"></div>
+                    <div class="project-info">
+                        <h3 class="project-title">Devil Fruit Wiki</h3>
+                        <p class="project-desc">Comprehensive database of all known devil fruits.</p>
+                        <div class="project-bounty">Reward: 50,000,000</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>Devil Fruit Abilities</h2>
+            <div class="skills-container">
+                <div class="devil-fruit skill-js">
+                    <div class="fruit-swirl"></div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="devil-fruit skill-react">
+                    <div class="fruit-swirl"></div>
+                    <span>React</span>
+                </div>
+                <div class="devil-fruit skill-css">
+                    <div class="fruit-swirl"></div>
+                    <span>CSS3</span>
+                </div>
+                <div class="devil-fruit skill-node">
+                    <div class="fruit-swirl"></div>
+                    <span>Node.js</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Call the Snail</h2>
+            <div class="den-den-mushi-container">
+                <div class="snail-body">
+                    <div class="snail-shell"></div>
+                    <div class="snail-head">
+                        <div class="snail-eye left"></div>
+                        <div class="snail-eye right"></div>
+                    </div>
+                    <div class="snail-receiver">📞</div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Pirate Name" required>
+                    <textarea placeholder="Message to Captain" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
